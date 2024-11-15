@@ -39,7 +39,7 @@ public class FicheiroDeObjectos {
         return estudantes;
     }*/
 
-    // Metodo para escrever dados do ficheiro 1 que e lista para ficheiro 2
+    // Metodo para escrever dados do ficheiro 1 que e lista para ficheiro 2 que e Fila
     public void escreveTextoFicheiro2(List<Estudante> estudantes, String nomeDoFicheiro) throws IOException {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(nomeDoFicheiro))) {
             for (Estudante estudante : estudantes) {
